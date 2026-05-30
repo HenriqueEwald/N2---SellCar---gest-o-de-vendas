@@ -106,3 +106,47 @@ main{
   margin-bottom:1rem; 
   text-transform:uppercase; 
 }
+
+.field{
+  margin-bottom:.9rem; 
+}
+input,
+select,
+textarea,
+button{
+  width:100%; 
+  border:none; 
+  outline:none; 
+  border-radius:6px; 
+  font-family:inherit; 
+}
+input,
+select,
+textarea{
+  background:var(--bg); 
+  border:1px solid var(--border); 
+  color:var(--text); 
+  padding:.8rem; 
+}
+input:focus,
+select:focus{
+  border-color:var(--blue); 
+}
+button{
+  cursor:pointer;
+  padding:.8rem; 
+  font-weight:700;
+  transition:.2s;
+}
+button:hover{
+  opacity:.9; 
+}
+.btn-primary{
+  background:var(--accent);
+  color:#fff; 
+}
+.btn-cancel{
+  background:transparent; 
+  border:1px solid var(--border);
+  color:var(--muted); 
+}
